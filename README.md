@@ -33,9 +33,12 @@ Especificações dos testes no arquivo property_mapper.test.ts:
 
 Especificações dos testes no arquivo booking_mapper.test.ts:
 
-    it("deve converter BookingEntity em Booking corretamente") - ok
-    it("deve lançar erro de validação ao faltar campos obrigatórios no BookingEntity") - ok
-    it("deve converter Booking para BookingEntity corretamente") - ok
+    it("deve converter BookingEntity em Booking corretamente") 
+    - ok
+    it("deve lançar erro de validação ao faltar campos obrigatórios no BookingEntity") 
+    - ok
+    it("deve converter Booking para BookingEntity corretamente") 
+    - ok
 
 2. Testes E2E de Criação de Usuário (Guest)
 
@@ -51,8 +54,10 @@ Tarefas:
 
 Especificações dos testes:
 
-    it("deve criar um usuário com sucesso")
+    it("deve criar um usuário com sucesso") 
+    - ok
     it("deve retornar erro com código 400 e mensagem 'O campo nome é obrigatório.' ao enviar um nome vazio")
+    - ok
 
 3. Testes E2E de Criação de Propriedade
 
