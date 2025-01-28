@@ -97,8 +97,11 @@ Tarefas:
 Especificações dos testes:
 
     it("deve retornar FullRefund quando a reserva for cancelada com mais de 7 dias de antecedência")
+    - ok
     it("deve retornar PartialRefund quando a reserva for cancelada entre 1 e 7 dias de antecedência")
+    - ok
     it("deve retornar NoRefund quando a reserva for cancelada com menos de 1 dia de antecedência")
+    - ok
 
 5. Testes de Cancelamento de Reserva
 
