@@ -77,8 +77,11 @@ Especificações dos testes:
     it("deve criar uma propriedade com sucesso")
     - ok
     it("deve retornar erro com código 400 e mensagem 'O nome da propriedade é obrigatório.' ao enviar um nome vazio")
+    - ok
     it("deve retornar erro com código 400 e mensagem 'A capacidade máxima deve ser maior que zero.' ao enviar maxGuests igual a zero ou negativo")
+    - ok
     it("deve retornar erro com código 400 e mensagem 'O preço base por noite é obrigatório.' ao enviar basePricePerNight ausente")
+    - ok
 
 4. Testes de Políticas de Reembolso (RefundRuleFactory)
 
