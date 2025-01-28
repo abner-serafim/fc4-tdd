@@ -7,6 +7,14 @@ import { UserMapper } from "./user_mapper";
 
 export class BookingMapper {
   static toDomain(entity: BookingEntity, property?: Property): Booking {
+    if (!property && !entity.property) {
+      throw new Error("Property não pode ser nulo");
+    }
+
+    if (!entity.guest) {
+      throw new Error("Guest não pode ser nulo");
+    }
+
     const guest = UserMapper.toDomain(entity.guest);
     const dateRange = new DateRange(entity.startDate, entity.endDate);
 
