@@ -116,6 +116,7 @@ Tarefas:
 Especificação do teste:
 
     it("deve retornar erro ao tentar cancelar uma reserva que não existe")
+    - ok
 
 Resultado esperado:
 
